@@ -1,6 +1,5 @@
 import 'package:spry/spry.dart';
 import 'package:vexichat_test/endpoints.dart';
-import 'package:vexichat_test/prisma_injector.dart';
 
 void main(List<String> arguments) async {
   print('Iniciando Vexichat Test...');
@@ -9,7 +8,7 @@ void main(List<String> arguments) async {
   final Spry spry = Spry();
 
   // Inject Prisma client.
-  spry.use(prisma);
+  //spry.use(prisma);
 
   // Run the server.
   await spry.listen(api, port: port);

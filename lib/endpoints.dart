@@ -67,7 +67,7 @@ final WebSocketHandler api = WebSocketHandler(
 
       // Termina el flujo si el usuario envia la palabra "humano"
       if (messageMap['message'] == 'humano') {
-        await saveResumen(user!.socketHash, resumen);
+        //await saveResumen(user!.socketHash, resumen);
         websocket.add(jsonEncode({
           'type': 2,
           'message': 'chat cerrado por uso de palabra "humano"',

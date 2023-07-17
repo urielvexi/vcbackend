@@ -1,3 +1,3 @@
-const String zendeskSecret = 'cu3ufynGAbzOA4iWpaL2nFTo1CTl48tTavqPgV7WRDNuYfb328M64ZhKd8XQcBx2CIsRqxKIB5eZC7bfovOJCA';
-const String zendeskSecretId = 'app_6490d43790f2a55fc2d6b998';
+const String zendeskSecret = 'HaM7POinshfAKADpyrHjyC8rbS01JiWuH_BEBFGRmd7DpaIygZgsxtksXydTbkAw5LwR5x32p0FgCBKd8yzEog';
+const String zendeskSecretId = 'app_64a5c964ef70601b7c251249';
 const String databaseUri = 'file:./prisma/dev.db';
